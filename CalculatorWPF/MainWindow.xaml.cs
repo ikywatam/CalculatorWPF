@@ -199,7 +199,7 @@ namespace CalculatorWPF
         private void ButtonEqual_Click(object sender, RoutedEventArgs e)
         {
             calculate();
-            label1.Content = "";
+            label1.Content = " ";
             ButtonPlus.IsEnabled = true;
             ButtonMinus.IsEnabled = true;
             ButtonMultiply.IsEnabled = true;
