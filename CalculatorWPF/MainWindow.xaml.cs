@@ -123,7 +123,10 @@ namespace CalculatorWPF
                 TextBlock.Text = String.Empty;
                 count = 1;
                 label1.Content = a.ToString() + "+";
+                ButtonMinus.IsEnabled = false;
                 ButtonPlus.IsEnabled = false;
+                ButtonMultiply.IsEnabled = false;
+                ButtonDivide.IsEnabled = false;
                 znak = true;
             }
         }
@@ -140,7 +143,10 @@ namespace CalculatorWPF
                 TextBlock.Text = String.Empty;
                 count = 3;
                 label1.Content = a.ToString() + "*";
+                ButtonMinus.IsEnabled = false;
+                ButtonPlus.IsEnabled = false;
                 ButtonMultiply.IsEnabled = false;
+                ButtonDivide.IsEnabled = false;
                 znak = true;
             }
         }
@@ -157,6 +163,9 @@ namespace CalculatorWPF
                 TextBlock.Text = String.Empty;
                 count = 4;
                 label1.Content = a.ToString() + "/";
+                ButtonMinus.IsEnabled = false;
+                ButtonPlus.IsEnabled = false;
+                ButtonMultiply.IsEnabled = false;
                 ButtonDivide.IsEnabled = false;
                 znak = true;
             }
@@ -192,6 +201,9 @@ namespace CalculatorWPF
                 count = 2;
                 label1.Content = a.ToString() + "-";
                 ButtonMinus.IsEnabled = false;
+                ButtonPlus.IsEnabled = false;
+                ButtonMultiply.IsEnabled = false;
+                ButtonDivide.IsEnabled = false;
                 znak = true;
             }
         }
